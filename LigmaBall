@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("script have some bug.")
+print("hello")
