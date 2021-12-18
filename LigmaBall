@@ -366,6 +366,7 @@ Section:NewLabel("Max Open Select:")
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
+wait()
 end
 end)
 
@@ -377,7 +378,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -388,7 +389,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -400,7 +401,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -411,7 +412,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -423,7 +424,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -435,7 +436,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -447,7 +448,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -459,7 +460,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -471,7 +472,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -483,7 +484,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -495,7 +496,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -507,7 +508,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -519,7 +520,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -531,7 +532,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -544,7 +545,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -556,7 +557,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
@@ -569,7 +570,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
-
+wait()
 end
 end)
 
