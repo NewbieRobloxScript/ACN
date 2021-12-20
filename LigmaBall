@@ -600,7 +600,16 @@ wait()
 end
 end)
 
+ Section:NewButton("Max FireForce Egg", "", function() 
+  while true do
+local args = {
+    [1] = "FireForceEgg"
+}
 
+game:GetService("ReplicatedStorage").Remote.AttemptMultiOpen:FireServer(unpack(args))
+wait()
+end
+end)
 
 
 local Tab = Window:NewTab("Teleport")
@@ -902,7 +911,374 @@ end
  end)
 
 local Tab = Window:NewTab("Auto")
-local Section = Tab:NewSection("Auto Functions")
+local Section = Tab:NewSection("Meteor Functions")
+
+ Section:NewButton("Auto Teleport To Meteor | NomeK", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+  local args = {
+    [1] = "DBZ"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args))
+
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2380.1025390625, -184.72698974609, 442.10290527344)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.DBZ.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+end
+end
+end
+end)
+
+ Section:NewButton("Auto Teleport To Meteor | Naruto", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+
+ local args = {
+    [1] = "Naruto"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-91.999984741211, -183.43934631348, 2606.9384765625)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.Naruto.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+end
+end
+end
+end)
+
+
+Section:NewButton("Auto Teleport To Meteor | Jojo", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "Jojo"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.4149813652039, -184.07151794434, -2400.9677734375)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.Jojo.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+Section:NewButton("Auto Teleport To Meteor | OnePiece", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+
+local args = {
+    [1] = "OnePiece"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1711.2517089844, -182.84812927246, 297.7444152832)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.OnePiece.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | MHA", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+
+local args = {
+    [1] = "MHA"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1987.421875, -185.02198791504, 2040.4187011719)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.MHA.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | AOT", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "AOT"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-713.44055175781, -183.3331451416, 546.03869628906)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.AOT.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | DemonSlayer", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "DemonSlayer"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3057.1469726563, -183.77653503418, -1030.7222900391)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.DemonSlayer.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | TokyoGhoul", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "TokyoGhoul"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+ game.Players.game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1922.6407470703, -183.15563964844, -1576.8055419922)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.TokyoGhoul.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | HxH", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "HxH"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1987.421875, -185.02198791504, 2040.4187011719)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.HxH.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | SAO", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "SAO"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1711.2517089844, -182.84812927246, 297.7444152832)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.SAO.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | Bleach", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "Bleach"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2834.3696289063, -184.04399108887, -3636.3435058594)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.Bleach.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | JJK", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "JJK"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1795.4147949219, -184.17771911621, -2400.9677734375)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.JJK.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | OPM", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "OPM"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1089.6594238281, -183.33317565918, 4300.138671875)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.OPM.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+  
+
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | Fate", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+
+local args = {
+    [1] = "Fate"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4883.1733398438, -185.02198791504, -2353.4909667969)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.Fate.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | Black Clover", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "BlackClover"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4883.1733398438, -185.02198791504, -2353.4909667969)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.BlackClover.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+  
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | FMA", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "FMA"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4883.1733398438, -185.02198791504, -2353.4909667969)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.FMA.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+  
+
+end
+end
+end
+end)
+
+
+
+
+Section:NewButton("Auto Teleport To Meteor | Slime", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "Slime"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4883.1733398438, -185.02198791504, -2353.4909667969)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.Slime.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+  
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewButton("Auto Teleport To Meteor | FireForce", "", function()
+for i,v in next, workspace:GetDescendants() do
+   if v.Name == "FruitMeteor" then
+  while true do wait()
+local args = {
+    [1] = "FireForce"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args)) 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4883.1733398438, -185.02198791504, -2353.4909667969)
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Worlds.FireForce.Enemies.FruitMeteor.HumanoidRootPart.CFrame
+
+
+end
+end
+end
+end)
+
+
+
+Section:NewLabel(" Use Boost Functions")
+
+
+
 
  Section:NewButton("Use Yen Boost", "", function()
   local args = {
