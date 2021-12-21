@@ -12,6 +12,13 @@ game.StarterGui:SetCore("SendNotification", {
     Callback = NotificationBindable;
 })
 
+local sound = Instance.new("Sound", game.Workspace)
+sound.Name = "amazing!"
+            sound.SoundId = "rbxassetid://243385414"
+            sound.Looped = false
+            sound.Volume = 10
+            sound:Play()
+
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main Function - LouisDox#8849")
@@ -1525,13 +1532,29 @@ Section:NewButton("KJ Hub - For Farming + Trials", "", function()
 loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
 end)
 
-Section:NewButton("SECRET FUNCTION....DO NOT CLICK!", "im warning u!", function()
-  local args = {
-    [1] = "i'm gay :)",
-    [2] = "All"
-}
 
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+Section:NewLabel("Sever Functions")
+
+Section:NewButton("Hop Sever", "", function()
+   local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
+        for i,v in pairs(Servers.data) do
+            if v.playing ~= v.maxPlayers then
+                game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
+            end
+        end
+end)
+
+Section:NewButton("Rejoin", "", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+end)
+
+Section:NewButton("999E Yen - Visual", "", function()
+local words = "ACN Hub is the best and I'm GAY!"
+
+while true do
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(words ,"All")
+wait()
+end
 end)
 
 
@@ -1562,5 +1585,4 @@ end)
 
 
 --Owner : LouisDox#8849
-
 
