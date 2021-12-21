@@ -150,8 +150,28 @@ end)
 
 
 local Tab = Window:NewTab("Egg")
-local Section = Tab:NewSection("Select Egg Below:")
+local Section = Tab:NewSection("Pause:")
 
+
+Section:NewButton("Reminder for Pause Boost!", "", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "HELLO THERE!";
+    Text = "to toggle the pause boost off, teleport to another map!";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+end)
+
+Section:NewButton("Pause Boost - Can't Open Egg or Attack Mob", "", function()
+   local args = {
+    [1] = "Tower"
+}
+
+game:GetService("ReplicatedStorage").Remote.AttemptTravel:InvokeServer(unpack(args))
+end)
+
+
+Section:NewLabel("Select Open Egg:")
 
 Section:NewButton("NomeK Egg", "", function()
  while true do
@@ -1548,8 +1568,8 @@ Section:NewButton("Rejoin", "", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
 end)
 
-Section:NewButton("999E Yen - Visual", "", function()
-local words = "ACN Hub is the best and I'm GAY!"
+Section:NewButton("ACN Hub Report", "", function()
+local words = "ACN Hub is the best"
 
 while true do
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(words ,"All")
